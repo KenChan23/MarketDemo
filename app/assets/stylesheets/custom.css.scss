@@ -1,0 +1,63 @@
+@import "bootstrap";
+
+body {
+	
+	background-color: #F5F5F1;
+	color: #333333;
+	font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/* Modify backgorund color of navigation bar. */
+
+.navbar-default {
+
+	background-color: #EFEFEB;
+
+}
+
+/* Modify home button on navigation bar. */
+
+.navbar-default .navbar-brand {
+
+	font-family: guardian-egyptt, georgia, serif;
+	font-weight: 400;
+	color: #D5641C;
+	font-size: 30px;
+
+}
+
+/* Modify navigation bar's tabs. */
+
+.navbar-default .navbar-nav > li > a {
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #019285;
+
+}
+
+.center {
+
+	text-align: center;
+
+}
+
+/* Target 5th, 9th and 13th listings. Ensures it is pushed to the left. */
+
+.col-md-3:nth-child(4n+1){
+
+	clear: left;
+
+}
+
+/* On show page, modify the text slightly. */
+
+.col-md-6 {
+
+	h3 {font-size: 45px;}
+	h5 {font-size: 25px;}
+	p {font-size: 18px;}
+
+}
