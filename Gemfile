@@ -50,6 +50,12 @@ group :development, :test do
 	gem 'sqlite3'
 end
 
+# Manual: Add DropBox gem to ensure the permanent storage of image files.
+gem "paperclip-dropbox", ">= 1.1.7"  
+
+# Manual: Protect DropBox account information 
+gem 'figaro'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
