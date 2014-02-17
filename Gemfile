@@ -56,6 +56,9 @@ gem "paperclip-dropbox", ">= 1.1.7"
 # Manual: Protect DropBox account information 
 gem 'figaro'
 
+# Manual: Add the Devise gem to enable multiple user functionality and login/signup features.
+gem 'devise'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
